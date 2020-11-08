@@ -1,8 +1,9 @@
 .banner{
-  background-image: url("https://images.unsplash.com/photo-1525091683228-188a0163f062?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
+  /*background-image: url("https://images.unsplash.com/photo-1525091683228-188a0163f062?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");*/
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 240px;
+  padding: 250px;
+  position: relative;
 }
 
 .banner h2 {
@@ -10,3 +11,26 @@
   font-family: monospace;
   text-align: center;
 }
+
+.banner p {
+  color: white;
+  font-family: monospace;
+  text-align: center;
+}
+
+.footer {
+  padding-bottom: 50px;
+  padding-top: 50px;
+
+}
+
+.footer h2 {
+  color: white;
+  font-family: monospace;
+  text-align: center;
+}
+
+.footer p {
+  color: white;
+  font-family: monospace;
+  text-align: center;

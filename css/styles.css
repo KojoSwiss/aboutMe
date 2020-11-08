@@ -1,19 +1,32 @@
 @import url("components/banners.css");
 @import url("components/buttons.css");
+@import url("components/cards.css");
+@import url("components/avatar.css");
 .hey {
   margin: 0 auto;
 }
 
 .journey {
   text-align: center;
-  margin: 52px 0;
+  margin: 8px 4px;
   font-family: monospace;
+  font-size: 24px;
+  padding-top: 80px;
 }
 
 .row-img {
   text-align: right;
 }
 
-.row-text p {
-  margin-bottom: 16px;
+.row-text {
+  margin-bottom: 50px;
+}
+
+.interests {
+  padding:50px;
+  text-align: center;
+}
+
+.row-img img {
+  width: 150px;
 }
